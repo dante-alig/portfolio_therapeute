@@ -692,9 +692,6 @@ body {
     color: white;
     margin-right: 20px;
   }
-  .bolder {
-    display: none;
-  }
 }
 
 /* Tailles d'écran pour les smartphones moyens (ex: iPhone 8) */
@@ -703,6 +700,22 @@ body {
 
 /* Tailles d'écran pour les tablettes */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+  body::before {
+    content: "La version tablette n'est pas encore disponible.";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+  }
 }
 
 /* Tailles d'écran pour les petits ordinateurs portables */

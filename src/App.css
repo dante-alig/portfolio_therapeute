@@ -479,6 +479,10 @@ body {
     line-height: 36px;
   }
 
+  .responsive-hide {
+    display: none;
+  }
+
   /* ------Header-------- */
 
   .header-container {
@@ -535,13 +539,20 @@ body {
     width: 100%;
     height: 100%;
     padding: 25px;
-    padding-top: 50px;
+    padding-top: 0px;
     padding-bottom: 50px;
   }
   .profil-container img {
     height: auto;
     width: 100%;
     object-fit: cover;
+  }
+
+  .accueil-subtitle {
+    font-size: 19px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-family: "Montserrat", sans-serif;
   }
 
   /* ------Therapie-------- */
@@ -680,6 +691,9 @@ body {
   .fa-paper-plane {
     color: white;
     margin-right: 20px;
+  }
+  .bolder {
+    display: none;
   }
 }
 

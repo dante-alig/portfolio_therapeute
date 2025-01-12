@@ -52,12 +52,17 @@ const Accueil: React.FC = () => {
             continuent d’imprégner votre vie et celle de vos enfants, souvent
             sans que vous en soyez conscient.
             <span className="bolder">
-              La psychogénéalogie offre une opportunité unique.
+              <span className="responsive-hide">
+                La psychogénéalogie offre une opportunité unique.
+              </span>
             </span>
-            Revisiter votre histoire familiale à travers une séance brève pour
-            explorer vos liens ancestraux. Vous pourrez identifier les schémas
-            qui se répètent, libérer les blocages transmis de génération en
-            génération, et amorcer une véritable réparation émotionnelle. <br />
+            <span className="responsive-hide">
+              Revisiter votre histoire familiale à travers une séance brève pour
+              explorer vos liens ancestraux. Vous pourrez identifier les schémas
+              qui se répètent, libérer les blocages transmis de génération en
+              génération, et amorcer une véritable réparation émotionnelle.{" "}
+              <br />
+            </span>
           </motion.div>
         </motion.div>
       </div>
